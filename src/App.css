@@ -1,0 +1,267 @@
+/* App.css */
+
+.App {
+  text-align: left;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size:16px;
+  color: white;
+}
+
+form {
+  background-color: #101010;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.form-group input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+button {
+  margin-top: 2px;
+  width: 35%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.toggle-link {
+  cursor: pointer; /* Add pointer cursor to the "Already have an account" link */
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.toggle-link:hover {
+  text-decoration: none;
+}
+
+/* select.css */
+
+/* Dark background for the entire container */
+.select-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Heading style */
+.select-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the select form */
+.select-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Label style */
+.select-form label {
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Select dropdown style */
+.select-form select {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Button style */
+.select-button {
+  width:100px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Disable button when loading */
+.select-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Style for the job list */
+.job-list {
+  margin-top: 20px;
+}
+
+/* Heading style for job list */
+.job-list h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* List of jobs style */
+.job-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual job item style */
+.job-list li {
+  margin-bottom: 10px;
+}
+
+/* Link for viewing job description style */
+.job-list a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+/* Increase font size and change color on hover */
+.job-list a:hover {
+  font-size: 20px;
+  color: #ff7f00; /* Change color on hover */
+  text-decoration: underline; /* Underline on hover */
+  cursor: pointer;
+}
+.job-list .job-list-item {
+  margin-bottom: 20px;
+}
+
+.job-description {
+  margin-bottom: 20px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color on dark background */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.job-description h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-description p {
+  font-size: 16px;
+}
+
+/* Style for the apply form */
+.apply-form {
+  
+  margin-bottom: 20px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color on dark background */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.apply-form h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.apply-form label {
+  margin-left:15px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.apply-form input[type="text"],
+.apply-form input[type="email"],
+.apply-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fff; /* White background color for input fields */
+  color: #333; /* Dark text color on white background */
+}
+
+.apply-form input[type="file"] {
+  margin-top: 5px;
+}
+
+.apply-form button {
+  padding: 5px 10px; /* Minimal button size */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Style for the preview section */
+.preview {
+  margin-bottom: 20px;
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color on dark background */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.preview h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.preview p {
+  font-size: 16px;
+}
+
+/* Style for the success message */
+.success-message {
+  font-size: 18px;
+  font-weight: bold;
+  color: #009900;
+}
